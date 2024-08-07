@@ -1,0 +1,65 @@
+input{
+  width: 250px;
+  height: 30px;
+  background: white;
+  border: solid 1px black;
+  border-radius: 10px;
+  font-family: Monospace;
+  text-align: center;
+  color: black;
+  position: relative;
+  left: 20px;
+  margin-bottom: 5px;
+}
+button{
+  width: 250px;
+  height: 35px;
+  background: white;
+  border: solid 1px black;
+  border-radius: 10px;
+  font-family: Monospace;
+  text-align: center;
+  position: relative;
+  left: 23px;
+  color: black;
+  margin-bottom: 5px;
+}
+.kgTolbs{
+  background: #E952BB;
+  max-width: 300px;
+  height: 180px;
+  border-radius: 10px;
+}
+p{
+  font-family: Times New Roman;
+  position: relative;
+  left: 95px;
+  top: 10px;
+}
+#lbs1{
+  position: relative;
+  top: 20px;
+}
+#kg2{
+  position: relative;
+  top: 20px;
+}
+.lbsTokg{
+  background: #E95221;
+  max-width: 300px;
+  height: 180px;
+  border-radius: 10px;
+}
+button:hover{
+  border-radius: 12px;
+  background: #9CA3AF;
+  transition: 0.2s;
+}
+button:active{
+  border-radius: 15px;
+  background: #8792A6;
+  transition: 0.2s;
+}
+body{
+  background: #FB923C;
+}

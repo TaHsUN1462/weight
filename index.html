@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weight Converter</title>
+  <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+  </head>
+  <body>
+    <div class="kgTolbs">
+      <p>KG TO POUND</p>
+      <input type="number" id="kg1" placeholder="KG"/><br>
+      <button onclick="calc1()">Calculate</button><br>
+      <input id="lbs1" placeholder="Pound" readonly=""><br>
+      
+    </div><br>
+    <button onclick="reset()">Reset</button><br>
+    <div class="lbsTokg">
+      <p>POUND TO KG</p>
+      <input type="number" id="lbs2" placeholder="Pound" /><br>
+      <button onclick="calc2()">Calculate</button>
+      <input id="kg2" placeholder="KG" readonly=""><br>
+    </div>
+    <script src="script.js" type="text/javascript" charset="utf-8"></script>
+  </body>
+</html>

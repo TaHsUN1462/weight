@@ -63,3 +63,20 @@ button:active{
 body{
   background: #FB923C;
 }
+.home{
+  width: 40px;
+  height: 40px;
+  position: relative;
+  left: 0px;
+  margin-bottom: 10px;
+  background: #DC2626;
+  color: white;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+.home:hover{
+  border-radius: 12px;
+}
+.home:active{
+  border-radius: 15px;
+}
